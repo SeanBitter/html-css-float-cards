@@ -4,3 +4,62 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+    padding: 10px 0;
+}
+
+#title {
+    color: #E53170;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card img {
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+
+.description {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+.card {
+    width: calc(100% / 3 - 30px);
+    height: 100px;
+    margin: 25px 15px;
+    background: #0F0E17;
+    color: white;
+    box-shadow: 0 0 10px grey;
+    float: left;
+}
+
+.text {
+    font-size: 12px;
+    float: left;
+    padding: 10px;
+    height: 100%;
+}
+
+.email {
+    color: #479DB0;
+    padding-top: 10px;
+}
